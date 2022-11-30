@@ -1,0 +1,284 @@
+
+*{
+    box-sizing: border-box !important;
+}
+
+html{
+    font-size: 1px;
+}
+
+body{
+    /* font-size: 1px; */
+    height: 687em;
+}
+
+.top{
+    /* height: 11vh; */
+    height: 75.57em;
+    width: 100%;
+    padding: 6.87em;
+    /* padding: 1 vh; */
+}
+
+.topPokedex{
+    height: 100%;
+}
+
+.topPokedexLeft{
+    width: 50%;
+    height: 100%;
+    /* border: .4vh solid black; */
+    border: 3em solid black;
+    border-right: none;
+    border-top-left-radius: 30em;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    overflow-block: hidden;
+}
+
+.topPokedexRight{
+    width: 50%;
+    height: 39%;
+    /* border: .4vh solid black; */
+    border: 2.748em solid black;
+    border-left: none;
+    border-top-right-radius: 30em;
+}
+
+.sphere{
+    /* width: 6.2vh;
+    height: 6.2vh;
+    margin: .5vh; */
+    width:  42.594rem;
+    height: 42.594rem ;
+    margin: 3.435rem;
+    border-radius: 100%;
+    margin-left: 30%;
+    /* margin-right: 3vh; */
+    margin-right: 20.61rem;
+}
+
+.spheres{
+    /* height: 4vh; */
+    height: 27.48rem;
+    border-radius: 100%;
+    /* margin-right: 1vh; */
+    margin-right: 6.87rem;
+}
+
+#bodyPokedex{
+    /* width: calc(100% - 2vh);
+    height: 67vh;
+    margin: 1vh;
+    margin-top: 0vh;
+    border: .4vh solid black; */
+    width: calc(100% - 13.74em);
+    height: 460.29em;
+    margin: 6.87em;
+    margin-top: 0em;
+    border: 2.748em solid black;
+    background-color: rgb(216, 216, 216);
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+}
+
+#initialLogo{
+    max-width: 600em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#final{
+    height: 5em;
+    width: 100%;
+    display: none;
+}
+
+.redBg{
+    background-color: red;
+}
+
+.multicolorBG{
+    background: linear-gradient(45deg, rgba(180,166,58,1) 0%, rgba(253,29,252,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: 400% 400%;
+    animation: cambiar 1s ease-in-out infinite;
+}
+
+.greenBG{
+    background: rgb(47, 255, 99);
+    background-size: 400% 400%;
+    animation: cambiar2 1s ease infinite;
+    animation-delay: .5s;
+}
+
+.blueBG{
+    background: rgb(71, 243, 255);
+    background-size: 400% 400%;
+    animation: cambiar2 1s ease infinite;
+    animation-delay: 0.5s;
+}
+
+.purpleBG{
+    background: rgb(255, 247, 8);
+    background-size: 400% 400%;
+    animation: cambiar2 1s ease infinite;
+    animation-delay: 0.5s;
+}
+
+.card{
+    width: 250em !important;
+    /* height: 61vh !important; */
+    height: 390em !important;
+    background-color: white !important;
+    margin: 10em !important;
+}
+
+.card-title{
+    font-size: 24em !important;
+    margin-left: .5em !important;
+}
+
+.card-text{
+    font-size: 16em !important;
+    margin-left: .75em !important;
+}
+
+.card-img-top{
+    /* height: 29vh !important; */
+    height: 199.23em !important;
+}
+
+.imgCardBg{
+    background-image: url(./images/blob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.rotate{
+    content: url(/images/pokebola.svg);
+    width: 60% !important;
+    margin-top: 10em !important;
+    animation: frames 1.2s infinite;
+    animation-delay: 0.8s;
+}
+
+#joystickContainer{
+    /* width: calc(100% - 2vh);
+    height: 20vh; */
+    width: calc(100% - 13.74rem);
+    height: 137.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 1vh;
+    padding: 1vh;
+    border: .4vh solid black; */
+    margin: 6.87rem;
+    padding: 6.87rem;
+    border: 2.748rem solid black;
+    border-bottom-left-radius: 30rem;
+    background-color: rgb(0, 147, 17);
+}
+
+button{
+    border: solid black !important;
+}
+
+.filters{
+    width: 34%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 6.87em;
+}
+
+#numberForm{
+    margin-top: 4em;
+    display: none;
+}
+
+#nameForm{
+    margin-top: 4em;
+    display: none;
+}
+
+.inputFilters{
+    width: 100%;
+    font-size: 16em;
+    /* margin: 6.87em; */
+    background-color: rgb(216, 216, 216);
+    border: solid black!important;
+}
+
+#btnNumberSearch{
+    font-size: 19em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: deepskyblue;
+}
+
+#btnNameSearch{
+    font-size: 19em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: deepskyblue;
+}
+
+#btnNumber{
+    height: 100%;
+    margin-right: 2px;
+    font-size: 16em;
+    width: 50%;
+    background-color: #3fd235;
+}
+
+#btnNumber:active{
+    transform: translateY(2px);
+}
+
+#btnNumber:focus{
+    background-color: #51f445;
+    box-shadow: 0 0 6rem white;
+}
+
+#btnName{
+    height: 100%;
+    font-size: 16em;
+    width: 50%;
+    background-color: rgb(225, 45, 45) ;
+}
+
+#btnName:active{
+    transform: translateY(2px);
+}
+
+#btnName:focus{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 6rem white;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+@keyframes cambiar2{
+    50%{background: rgb(255, 191, 0);}
+    /* 100%{background: red;} */
+}
+
+@keyframes frames{
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="93px" height="63px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 29.196 19.778"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:black}
+    .fil0 {fill:red}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M29.196 0l-29.196 0 0 19.778c15.61,-0.027 11.763,-11.867 29.196,-11.867l0 -7.911z"/>
+  <rect class="fil1" width="29.196" height="0.754"/>
+  <path class="fil1" d="M0 19.778c15.61,-0.027 11.763,-11.867 29.196,-11.867l0 -0.746 -0.753 0c-3.183,0.063 -6.396,0.539 -9.292,1.916 -2.259,1.075 -3.945,2.515 -5.751,4.203 -1.6,1.497 -3.097,2.927 -5.056,3.963 -2.358,1.246 -4.956,1.694 -7.591,1.767l-0.753 0.004 0 0.76z"/>
+ </g>
+</svg>
