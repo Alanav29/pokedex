@@ -152,14 +152,14 @@ body{
 }
 
 .imgCardBg{
-    background-image: url(./images/blob.svg);
+    background-image: url(images/blob.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .rotate{
-    content: url(/images/pokebola.svg);
+    content: url(images/pokebola.svg);
     width: 60% !important;
     margin-top: 10em !important;
     animation: frames 1.2s infinite;

@@ -77,7 +77,7 @@ async function start(array, url) {
 // funcion para crear tarjeta de pokemon
 let createCard = function(pokemon, i){
     if (pokemon.sprites.other['official-artwork'].front_default == null) {
-        pokemon.sprites.other['official-artwork'].front_default = '/images/pokelogo.svg'
+        pokemon.sprites.other['official-artwork'].front_default = 'images/pokelogo.svg'
     }
 
     let card = '<div class="card">';
